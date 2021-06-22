@@ -8,7 +8,7 @@ Do it yourself
 --------------
 Copy the file "providers.xml" (find it in this repo) and all icons into the directory:
 <pre>
-"...\Locus\mapsOnline\custom"
+...\Locus\mapsOnline\custom
 </pre>
 
 Contribute to providers.xml
