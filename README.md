@@ -1,24 +1,38 @@
-LocusMapTweak
-=============
+# LocusMapTweak
 
 These files are needed to extend online map providers in Locus Maps.
-providers.xml is the essential one. Icons are just for decoration.
+The `providers.xml` is the essential file to update on your Locus Maps installation. The icons are just for decoration.
 
-Do it yourself
---------------
-Copy the file "providers.xml" (find it in this repo) and all icons into the directory:
-<pre>
+---
+
+## Installation
+
+### Do it yourself
+
+Copy the file `"providers.xml"` (find it in this repo) and all icons into this directory:
+
+```
 ...\Locus\mapsOnline\custom
-</pre>
+```
 
-Contribute to providers.xml
----------------------------
-Find or fix maps with this method: <br>
-http://docs.locusmap.eu/doku.php?id=manual:advanced:customization:online_maps
+### Do it with the app
 
-Forked with updates from...
-===========================
+The Locus Map Tweak app is no longer on the Google Play store, but you can still download and sideload the APK from other sources, like: http://locus-addon-map-tweak.apk.watch/3.2.2
 
-The original author of this collection seems to have abandoned it.  I have added in some PRs to his repo and merged them here.  This is a link to the original repository:
-<br>
-https://github.com/mjk912/LocusMapTweak
+
+*But...* that site hasn't been updated with changes found in this repository and adding the files manually as described above is fairly straight forward / **much safer.**
+
+---
+
+## Other Notes
+
+### Add your contributions
+
+If you want to contribute to `providers.xml`, you can find or fix maps following [documentation found on the Locus Map site](http://docs.locusmap.eu/doku.php?id=manual:advanced:customization:online_maps)
+
+Feel free to submit PRs or send me changes you make and I will update this repository.
+
+### Forked with updates from
+
+
+The original author of this collection appears to have abandoned it.  I have taken the PRs made against [that repo](https://github.com/mjk912/LocusMapTweak) and merged them here.
