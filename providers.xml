@@ -2070,7 +2070,7 @@
 		<usage>overlay</usage>
 	</provider>
 
-	<provider id="10930" type="0" visible="true" background="-1">
+	<provider id="10930" type="0" visible="true" background="10308">
 		<name>OpenRailwayMap</name>
 		<mode>Infrastructure</mode>
 		<countries>World</countries>
